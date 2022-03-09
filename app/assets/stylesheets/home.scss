@@ -1,0 +1,3029 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@charset "UTF-8";
+
+
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 254px;
+}
+
+.pageTitle  {
+  background: url(main_visual/8.png) no-repeat;
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+
+/* introduction */
+
+.introduction {
+  margin-bottom: 30px;
+}
+  .introduction .large_txt {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    font-weight: bold;
+  }
+    .introduction .large_txt br {
+      display: none;
+    }
+    .introduction .large_txt span {
+      border-bottom: 3px solid #3a77c2;
+    }
+  .introduction .list_intro {
+  }
+    .introduction .list_intro li {
+      padding: 10px 0 10px 12px;
+      text-indent: -12px;
+      border-bottom: 1px dashed #ddd;
+      list-style: disc;
+      list-style-position: inside;
+      font-size: 1.4em;
+      line-height: 1.4em;
+    }
+    .introduction .list_intro li:first-child {
+      border-top: 1px dashed #ddd;
+    }
+  .introduction .registered {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8ecee;
+  }
+
+
+/* message */
+
+.message {
+  margin-bottom: 30px;
+}
+  .message .picDirector {
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 0;
+  }
+    .message .picDirector small {
+      display: block;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      width: 100px;
+    }
+    .message .txt .normalTxt:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+
+/* outline */
+.outline {
+  margin-bottom: 25px;
+  padding: 25px 0;
+  background-color: #f1f1f1;
+}
+  .outline .oitlineList:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  .outline .oitlineList .tbrNormal th {
+    background-color: #ddd;
+  }
+  .outline .oitlineList .tbrNormal td {
+    background-color: #fff;
+  }
+
+
+/* activity */
+.activity {
+  margin-bottom: 25px;
+}
+  .activity .normalTxt br {
+    display: none;
+  }
+  .activity figure {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    line-height: 0;
+  }
+
+
+/* lecture */
+.lecture {
+  margin-bottom: 25px;
+}
+  .lecture .figLecture {
+  }
+    .lecture .figLecture .logoIkuben {
+      margin-bottom: 25px;
+      padding: 15px 0 8px;
+      border: 3px solid #ddd;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+    }
+      .lecture .figLecture .logoIkuben .logomark {
+        display: block;
+        width: 150px;
+        margin: 0 auto;
+        line-height: 0;
+      }
+      .lecture .figLecture .logoIkuben .logotype {
+        display: block;
+        padding-top: 5px;
+        text-align: center;
+        font-size: 1.2em;
+        font-style: normal;
+      }
+
+    .lecture .figLecture .instructor {
+      margin-bottom: 20px;
+    }
+      .lecture .figLecture .titLecture {
+        margin-bottom: 15px;
+        padding: 10px 0;
+        text-align: center;
+        color: #fff;
+        font-size: 1.4em;
+        line-height: 1.2em;
+      }
+        .lecture .figLecture .bgPink {
+          background-color: #c14556;
+        }
+        .lecture .figLecture .bgBlue {
+          background-color: #313e6b;
+        }
+      .lecture .figLecture .instructor .point {
+        display: table;
+        width: 100%;
+        margin-bottom: 30px;
+        table-layout: fixed;
+        padding: 10px;
+        border: 1px solid #c14556;
+      }
+        .lecture .figLecture .instructor .point .pointList {
+          display: table-cell;
+        }
+        .lecture .figLecture .instructor .point .pointList:first-child {
+          padding-right: 5px;
+        }
+        .lecture .figLecture .instructor .point .pointList:last-child {
+          padding-left: 5px;
+        }
+          .lecture .figLecture .instructor .point .pointList dt {
+            margin-bottom: 10px;
+            padding: 6px 0;
+            background-color: #f8ecee;
+            border: 1px solid #c14556;
+            color: #c14556;
+            text-align: center;
+            font-size: 1.2em;
+            line-height: 1.0em;
+          }
+          .lecture .figLecture .instructor .point .pointList dd {
+            font-size: 1.2em;
+            line-height: 1.4em;
+          }
+            .lecture .figLecture .instructor .point .pointList dd .check {
+              display: block;
+              padding: 0 0 0 18px;
+              background: url(../images/about/icon_check.png) no-repeat;
+              background-size: 10px auto;
+              background-position: 0 3px;
+            }
+            .lecture .figLecture .instructor .point .pointList dd .check:not(:last-child) {
+              margin-bottom: 5px;
+            }
+        .lecture .figLecture .instructor .future {
+          position: relative;
+          padding: 10px;
+          border: 1px solid #c14556;
+        }
+          .lecture .figLecture .instructor .future .icon {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            right: 50%;
+            width: 30px;
+            margin-left: -15px;
+          }
+          .lecture .figLecture .instructor .future h4 {
+            margin-bottom: 15px;
+            font-size: 1.7em;
+            line-height: 1.4em;
+          }
+            .lecture .figLecture .instructor .future h4 small {
+              display: block;
+              margin-bottom: 5px;
+              font-weight: bold;
+              font-size: 0.7em;
+            }
+            .lecture .figLecture .instructor .future h4 strong {
+              display: block;
+              color: #c14556;
+            }
+          .lecture .figLecture .instructor .future .target {
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            line-height: 1.2em;
+          }
+            .lecture .figLecture .instructor .future .target dt {
+              margin-bottom: 5px;
+              font-weight: bold;
+            }
+          .lecture .figLecture .instructor .future .bgWoman {
+            background: url(../images/about/fig_woman.png) no-repeat;
+            background-position: 95% 100%;
+            background-size: auto 150px;
+          }
+            .lecture .figLecture .instructor .future .listFuture {
+              width: 70%;
+              padding: 10px;
+              background-color: #f8ecee;
+              border-radius: 3px;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+            }
+              .lecture .figLecture .instructor .future .listFuture li {
+                font-size: 1.4em;
+                line-height: 1.4em;
+              }
+              .lecture .figLecture .instructor .future .listFuture li:not(:last-child) {
+                margin-bottom: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #dec6ca;
+              }
+          .lecture .figLecture .instructor .future .icon02 {
+            width: 45px;
+            margin: 0 auto 15px;
+            line-height: 0;
+          }
+          .lecture .figLecture .instructor .future .listMerit {
+          }
+            .lecture .figLecture .instructor .future .listMerit li {
+              padding-left: 18px;
+              background: url(../images/about/icon_exclamation.png) no-repeat;
+              background-position: 0 3px;
+              background-size: 15px auto;
+              color: #c14556;
+              font-size: 1.4em;
+              line-height: 1.4em;
+            }
+            .lecture .figLecture .instructor .future .listMerit li:not(:last-child) {
+              margin-bottom: 10px;
+              padding-bottom: 10px;
+              border-bottom: 1px solid #dec6ca;
+            }
+      .lecture .figLecture .seminars {
+      }
+        .lecture .figLecture .seminars .course {
+          display: table;
+          width: 100%;
+          table-layout: fixed;
+          margin-bottom: 15px;
+        }
+          .lecture .figLecture .seminars .course .courseList {
+            display: table-cell;
+            vertical-align: top;
+          }
+          .lecture .figLecture .seminars .course .courseList:first-child {
+            padding-right: 7px;
+          }
+          .lecture .figLecture .seminars .course .courseList:last-child {
+            padding-top: 5px;
+            padding-left: 7px;
+          }
+            .lecture .figLecture .seminars .course .courseList .bgListPink {
+              padding: 5px;
+              background-color: #f8ecee;
+            }
+            .lecture .figLecture .seminars .course .courseList h4 {
+              margin-bottom: 5px;
+              padding: 5px 0;
+              background-color: #313e6b;
+              text-align: center;
+              color: #fff;
+              font-size: 1.3em;
+              line-height: 1.4em;
+            }
+            .lecture .figLecture .seminars .course .courseList .courseList_menu {
+            }
+              .lecture .figLecture .seminars .course .courseList .courseList_menu li {
+                padding: 5px 0;
+                background-color: #fff;
+                border: 1px solid #313e6b;
+                text-align: center;
+                color: #313e6b;
+                font-size: 1.2em;
+                line-height: 1.4em;
+              }
+              .lecture .figLecture .seminars .course .courseList .courseList_menu li:not(:last-child) {
+                margin-bottom: 5px;
+              }
+        .lecture .figLecture .seminars .courseMerit {
+          padding: 10px 10px 15px 10px;
+          background: url(../images/about/bg_result.png) no-repeat;
+          background-position: center -45px;
+          background-size: 125% auto;
+          border: 1px solid #313e6b;
+        }
+          .lecture .figLecture .seminars .courseMerit h4 {
+            margin-bottom: 15px;
+            font-size: 1.7em;
+            line-height: 1.4em;
+          }
+            .lecture .figLecture .seminars .courseMerit h4 small {
+              display: block;
+              margin-bottom: 5px;
+              font-weight: bold;
+              font-size: 0.7em;
+            }
+            .lecture .figLecture .seminars .courseMerit h4 strong {
+              display: block;
+              color: #313e6b;
+            }
+          .lecture .figLecture .seminars .courseMerit .figMerit {
+            width: 200px;
+            margin: 95px auto 0;
+            line-height: 0;
+          }
+    .lecture .figLecture .figChart {
+      display: none;
+    }
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle .picture {
+  background-size: auto 250px;
+  background-position: center top;
+}
+
+
+/* introduction */
+
+.introduction {
+  margin-bottom: 50px;
+}
+  .introduction .large_txt {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.2em;
+    line-height: 1.8em;
+  }
+    .introduction .large_txt br {
+      display: block;
+    }
+
+
+/* message */
+
+.message {
+  margin-bottom: 50px;
+}
+
+
+/* outline */
+.outline {
+  margin-bottom: 50px;
+}
+
+
+/* activity */
+.activity {
+  margin-bottom: 50px;
+}
+  .activity .normalTxt {
+    text-align: center;
+    line-height: 1.8em;
+  }
+    .activity .normalTxt br {
+      display: block;
+    }
+  .activity figure {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+
+
+/* lecture */
+.lecture {
+  margin-bottom: 50px;
+}
+  .lecture .figLecture {
+  }
+    .lecture .figLecture .instructor {
+      margin-bottom: 35px;
+    }
+      .lecture .figLecture .instructor .point {
+      }
+        .lecture .figLecture .instructor .point .pointList {
+        }
+          .lecture .figLecture .instructor .point .pointList dt {
+            font-size: 1.4em;
+          }
+          .lecture .figLecture .instructor .point .pointList dd {
+            font-size: 1.4em;
+          }
+        .lecture .figLecture .instructor .future {
+        }
+          .lecture .figLecture .instructor .future .bgWoman {
+            background-size: auto 110px;
+          }
+            .lecture .figLecture .instructor .future .listFuture {
+              width: 83%;
+            }
+      .lecture .figLecture .seminars {
+      }
+        .lecture .figLecture .seminars .course {
+        }
+          .lecture .figLecture .seminars .course .courseList:last-child {
+            padding-top: 8px;
+          }
+            .lecture .figLecture .seminars .course .courseList .bgListPink {
+              padding: 8px;
+            }
+            .lecture .figLecture .seminars .course .courseList h4 {
+              font-size: 1.4em;
+            }
+            .lecture .figLecture .seminars .course .courseList .courseList_menu {
+            }
+              .lecture .figLecture .seminars .course .courseList .courseList_menu li {
+                font-size: 1.4em;
+              }
+        .lecture .figLecture .seminars .courseMerit {
+          background-position: center -70px;
+          background-size: 400px auto;
+        }
+          .lecture .figLecture .seminars .courseMerit h4 {
+            margin-bottom: 15px;
+            font-size: 1.7em;
+            line-height: 1.4em;
+          }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 381px;
+}
+
+.pageTitle .picture {
+  background-size: auto 300px;
+}
+
+
+/* introduction */
+
+.introduction {
+  margin-bottom: 45px;
+}
+
+
+
+/* message */
+
+.message {
+  margin-bottom: 30px;
+}
+  .message .picDirector {
+    margin-bottom: 25px;
+  }
+    .message .picDirector small {
+      bottom: 35px;
+      left: 35px;
+      width: 183px;
+    }
+    .message .txt .normalTxt:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    .message .txt .normalTxt {
+      line-height: 1.8em;
+    }
+
+
+/* outline */
+.outline {
+  margin-bottom: 45px;
+  padding: 35px 0;
+}
+  .outline .container {
+    display: table;
+  }
+    .outline .container .oitlineList {
+      display: table-cell;
+      width: 50%;
+    }
+    .outline .container .oitlineList:first-child {
+      padding-right: 10px;
+    }
+    .outline .container .oitlineList:last-child {
+      padding-left: 10px;
+    }
+    .outline .oitlineList:not(:last-of-type) {
+      margin-bottom: 0;
+    }
+      .outline .oitlineList .tbrNormal th {
+        width: 100px;
+        border-bottom: 1px solid #d1d1d1;
+      }
+
+
+/* activity */
+.activity {
+  margin-bottom: 45px;
+}
+  .activity figure {
+    margin-top: 30px;
+    padding: 30px;
+  }
+
+
+/* lecture */
+.lecture {
+  margin-bottom: 45px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+
+
+/* introduction */
+
+.introduction {
+  margin-bottom: 70px;
+}
+  .introduction .large_txt {
+    margin-bottom: 40px;
+    font-size: 2.6em;
+    line-height: 1.8em;
+  }
+  .introduction .list_intro {
+    padding: 25px;
+    border: 5px solid #f1f1f1;
+  }
+    .introduction .list_intro li {
+      padding: 10px 0;
+      text-indent: 0;
+      border-bottom: 1px dashed #d1d1d1;
+      font-size: 1.6em;
+      line-height: 1.4em;
+    }
+    .introduction .list_intro li:first-child {
+      border-top: 1px dashed #d1d1d1;
+    }
+  .introduction .registered {
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* message */
+
+.message {
+  margin-bottom: 70px;
+}
+  .message .picDirector {
+    margin-bottom: 50px;
+  }
+    .message .picDirector small {
+      bottom: 80px;
+      left: 80px;
+    }
+    .message .txt .normalTxt:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+
+/* outline */
+.outline {
+  margin-bottom: 70px;
+  padding: 70px 0;
+}
+  .outline .container {
+    display: table;
+  }
+    .outline .container .oitlineList:first-child {
+      padding-right: 45px;
+      border-right: 1px solid #d1d1d1;
+    }
+    .outline .container .oitlineList:last-child {
+      padding-left: 45px;
+    }
+
+
+/* activity */
+.activity {
+  margin-bottom: 70px;
+}
+
+
+/* lecture */
+.lecture {
+  margin-bottom: 70px;
+}
+  .lecture .figLecture {
+    position: relative;
+  }
+    .lecture .figLecture .logoIkuben {
+      width: 570px;
+      margin: 0 auto;
+      padding: 15px 0;
+      text-align: center;
+    }
+      .lecture .figLecture .logoIkuben .logomark {
+        display: inline-block;
+        width: auto;
+        margin: 0;
+        padding-right: 10px;
+        vertical-align: bottom;
+      }
+      .lecture .figLecture .logoIkuben .logotype {
+        display: inline-block;
+        padding-top: 0;
+        font-family: "FOT-筑紫明朝 Pr5 B";
+        font-size: 1.6em;
+      }
+    
+    .lecture .figLecture {
+      position: relative;
+    }
+
+    .lecture .figLecture .instructor {
+      position: relative;
+      width: 681px;
+      padding-top: 60px;
+      margin-bottom: 0;
+    }
+      .lecture .figLecture .titLecture {
+        width: 340px;
+        margin: 0 0 30px 40px;
+        font-size: 1.6em;
+      }
+      .lecture .figLecture .instructor .point {
+        width: 423px;
+        margin-bottom: 40px;
+        padding: 20px;
+        height: 215px;
+      }
+        .lecture .figLecture .instructor .point .pointList:first-child {
+          padding-right: 10px;
+        }
+        .lecture .figLecture .instructor .point .pointList:last-child {
+          padding-left: 10px;
+        }
+          .lecture .figLecture .instructor .point .pointList dt {
+            margin-bottom: 15px;
+            padding: 10px 0;
+            font-size: 1.6em;
+          }
+          .lecture .figLecture .instructor .point .pointList dd {
+            font-size: 1.4em;
+          }
+        .lecture .figLecture .instructor .future {
+          height: 487px;
+          padding: 20px 20px 30px 20px;
+          background: url(../images/about/fig_woman.png) no-repeat;
+          background-position: 92% 80%;
+        }
+          .lecture .figLecture .instructor .future .icon {
+            position: absolute;
+            top: -50px;
+            left: 185px;
+            right: auto;
+            width: auto;
+            margin-left: 0;
+          }
+          .lecture .figLecture .instructor .future h4 {
+            margin-bottom: 20px;
+            font-size: 2.4em;
+          }
+            .lecture .figLecture .instructor .future h4 small {
+              margin-bottom: 0;
+            }
+          .lecture .figLecture .instructor .future .target {
+            margin-bottom: 20px;
+            font-size: 1.6em;
+          }
+          .lecture .figLecture .instructor .future .bgWoman {
+            background: none;
+          }
+            .lecture .figLecture .instructor .future .listFuture {
+              width: 75%;
+              padding: 15px;
+            }
+              .lecture .figLecture .instructor .future .listFuture li {
+                font-size: 1.6em;
+              }
+          .lecture .figLecture .instructor .future .icon02 {
+            width: 96px;
+          }
+          .lecture .figLecture .instructor .future .listMerit {
+          }
+            .lecture .figLecture .instructor .future .listMerit li {
+              padding-left: 24px;
+              background-size: 20px auto;
+              font-size: 1.8em;
+            }
+            .lecture .figLecture .instructor .future .listMerit li:not(:last-child) {
+              margin-bottom: 10px;
+              padding-bottom: 0;
+              border-bottom: 0;
+            }
+      .lecture .figLecture .seminars {
+        position: absolute;
+        top: 135px;
+        right: 0;
+        width: 565px;
+      }
+        .lecture .figLecture .seminars .titLecture {
+          margin: 0 auto 30px;
+        }
+        .lecture .figLecture .seminars .course {
+          margin-bottom: 40px;
+          height: 215px;
+        }
+          .lecture .figLecture .seminars .course .courseList {
+          }
+          .lecture .figLecture .seminars .course .courseList:first-child {
+            padding-right: 10px;
+          }
+          .lecture .figLecture .seminars .course .courseList:last-child {
+            padding-top: 20px;
+            padding-left: 10px;
+          }
+            .lecture .figLecture .seminars .course .courseList .bgListPink {
+              padding: 20px 20px 20px 75px;
+              background: url(../images/about/fig_woman.png) no-repeat;
+              background-size: auto 85%;
+              background-position: 15px 50%;
+              background-color: #f8ecee;
+            }
+            .lecture .figLecture .seminars .course .courseList h4 {
+              margin-bottom: 15px;
+              padding: 8px 0;
+              font-size: 1.6em;
+              line-height: 1.4em;
+            }
+            .lecture .figLecture .seminars .course .courseList .courseList_menu {
+            }
+              .lecture .figLecture .seminars .course .courseList .courseList_menu li {
+                font-size: 1.4em;
+              }
+        .lecture .figLecture .seminars .courseMerit {
+          width: 327px;
+          height: 487px;
+          margin-left: 238px;
+          padding: 20px 15px 20px 20px;
+          background-position: center -35px;
+          background-size: 125% auto;
+        }
+          .lecture .figLecture .seminars .courseMerit h4 {
+            margin-bottom: 0;
+            font-size: 2.0em;
+            line-height: 1.4em;
+          }
+          .lecture .figLecture .seminars .courseMerit .figMerit {
+            width: 274px;
+            margin: 115px auto 0;
+          }
+    .lecture .figLecture .figChart {
+      display: block;
+      position: absolute;
+    }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle .picture {
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+}
+
+@charset "UTF-8";
+
+/* -------------------------- */
+/* content */
+/* -------------------------- */
+
+/* mainVisual */
+.mainVisual {
+  width: 100%;
+}
+  .mainVisual .slides li {
+    position: relative;
+    width: 100%;
+    height: 250px;
+  }
+    .mainVisual .slides li .txt {
+      position: absolute;
+      z-index: 1;
+      bottom: 20px;
+      left: 20px;
+    }
+      .mainVisual .slides .pic01 .txt {
+        width: 278px;
+      }
+      .mainVisual .slides .pic02 .txt {
+        width: 151px;
+      }
+      .mainVisual .slides .pic03 .txt {
+        width: 167px;
+      }
+      .mainVisual .slides .pic04 .txt {
+        width: 176px;
+      }
+      .mainVisual .slides .pic05 .txt {
+        width: 175px;
+      }
+      .mainVisual .slides .pic06 .txt {
+        width: 216px;
+      }
+    .mainVisual .slides li .picture {
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      height: 250px;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+      .mainVisual .slides .pic01 .picture {
+        background-image: image-url(main_visual/top);
+        background-size:cover;
+        background-position: bottom;
+      }
+
+/*banner*/
+.imgBnr .imgBnr_link:not(:last-child) {
+  margin-bottom: 20px;
+}
+.imgBnr .imgBnr_link img {
+  box-sizing: border-box;
+  border: solid 1px #f5f5f5;
+  vertical-align: bottom;
+}
+
+/* introduction */
+.introduction {
+  margin: 20px 0;
+}
+  .introduction h2 {
+    margin-bottom: 10px;
+    font-family: "FOT-筑紫オールドゴシック Std B";
+    font-size: 1.8em;
+    line-height: 1.4em;
+  }
+  .introduction .normalTxt br {
+    display: none;
+  }
+
+/* subject */
+.subject {
+  padding: 20px 0;
+  background-color: #f1f1f1;
+}
+  .subject h2 {
+    display: none;
+  }
+  .subject .subjectBox:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+    .subject .subjectBox h3 {
+      margin-bottom: 10px;
+      padding: 10px 0;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      text-align: center;
+      color: #fff;
+      font-family: "FOT-筑紫明朝 Pr5 B";
+      font-size: 1.4em;
+      line-height: 1.0em;
+    }
+    .subject .mom h3 {
+      background-color: #036ca8;
+    }
+    .subject .teacher h3 {
+      background-color: #2f3e6b;
+    }
+
+    .subject .subjectBox .subjectList:not(:last-of-type) {
+      margin-bottom: 15px;
+    }
+      .subject .subjectBox .subjectList a {
+        display: block;
+        padding-bottom: 20px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+      .subject .mom .subjectList a {
+        background: url(../images/top/icon_ribbon_pink.png) no-repeat;
+        background-position: 10px 0;
+        background-color: #fff;
+        box-shadow:3px 3px 0px 0px #036ca8;
+        -moz-box-shadow:3px 3px 0px 0px #036ca8;
+        -webkit-box-shadow:3px 3px 0px 0px #036ca8;
+      }
+      .subject .teacher .subjectList a {
+        background: url(../images/top/icon_ribbon_blue.png) no-repeat;
+        background-position: 10px 0;
+        background-color: #fff;
+        box-shadow:3px 3px 0px 0px #2f3e6b;
+        -moz-box-shadow:3px 3px 0px 0px #2f3e6b;
+        -webkit-box-shadow:3px 3px 0px 0px #2f3e6b;
+      }
+        .subject .subjectBox .subjectList a figure {
+          line-height: 0;
+        }
+        .subject .subjectBox .subjectList a h4 {
+          font-size: 1.6em;
+          line-height: 1.2em;
+        }
+          .subject .subjectBox .subjectList a h4 strong {
+            display: block;
+            font-family: "FOT-筑紫オールドゴシック Std B";
+          }
+          .subject .mom .subjectList a h4 strong {
+            color: #036ca8;
+          }
+          .subject .teacher .subjectList a h4 strong {
+            color: #2f3e6b;
+          }
+          .subject .subjectBox .subjectList a h4 small {
+            color: #b5b5b5;
+            font-family: "FOT-筑紫明朝 Pr6N L";
+            font-style: italic;
+            font-size: 0.9em;
+          }
+          .subject .subjectBox .subjectList a h4 small.comingSoon {
+            font-family: "Yu Gothic",YuGothic,Meiryo,"Hiragino Kaku Gothic ProN",sans-serif;
+            font-style: normal;
+            display: inline-block;
+            vertical-align: top;
+            margin: 3px 0 0 8px;
+            padding: 1px 8px;
+            background: #F1F1F1;
+            color: #333;
+            font-size: 0.7em;
+            font-weight: normal;
+          }
+      .subject .subjectBox .subjectList a:hover {
+        text-decoration: none;
+        box-shadow:3px 3px 0px 0px #ccc;
+        -moz-box-shadow:3px 3px 0px 0px #ccc;
+        -webkit-box-shadow:3px 3px 0px 0px #ccc;
+      }
+      .subject .mom .subjectList a:hover {
+        border: 1px solid #036ca8;
+      }
+      .subject .teacher .subjectList a:hover {
+        border: 1px solid #2f3e6b;
+      }
+
+
+/* information */
+.information {
+  margin: 20px 0;
+}
+
+  .infoBox{
+    background-color: #f1f1f1;
+    padding: 70px 0;
+  }
+
+  .infoList {
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+  }
+    .infoList li {
+      border-bottom: 1px solid #ddd;
+    }
+      .infoList li a {
+        display: block;
+        padding: 10px;
+        color: #323232;
+        font-size: 1.3em;
+        line-height: 1.4;
+      }
+        .infoList li a .date {
+          display: block;
+          padding-bottom: 5px;
+        }
+        .infoList li a .title {
+          display: block;
+          color: #036ca8;
+        }
+      .infoList li a:hover {
+        text-decoration: none;
+        background-color: #f1f1f1;
+      }
+  .others .facebook {
+    width: 280px;
+    margin: 0 auto 20px;
+  }
+  .others .bnrBox {
+  }
+    .others .bnrBox .ul li:not(:last-child) {
+      margin-bottom: 10px;
+      line-height: 0;
+    }
+
+
+
+.others {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+  .others .youtube {
+    margin: 30px 0;
+  }
+    .others .youtube .youtubeContainer {
+      clear: both;
+      position: relative;
+      width: 100%;
+      margin-bottom: 10px;
+      padding-top: 56.25%;
+    }
+      .others .youtube .youtubeContainer iframe {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+
+.mailmagazine {
+  clear: both;
+  margin: 20px 0;
+}
+  .mailmagazine_inner {
+    position: relative;
+    margin-bottom: 5px;
+    padding: 15px;
+    background-color: #f8f1f2;
+    border-top: 5px solid #ecdee0;
+    border-bottom: 5px solid #ecdee0;
+  }
+    .magazine_title {
+      width: 220px;
+      margin: 0 auto;
+      font-size: 1.4em;
+      line-height: 1.0;
+    }
+      .magazine_title .title_img {
+        display: block;
+        line-height: 0;
+        margin-bottom: 15px;
+      }
+    .magazine_formBox {
+      margin-top: 15px;
+    }
+      .magazine_formBox dt {
+        display: none;
+      }
+      .magazine_formBox dd:not(:last-child) {
+        margin-bottom: 5px;
+      }
+        .magazine_formBox dd .size01 {
+          width: 100%;
+          font-size: 1.4em;
+        }
+    .mailmagazine .form_btn {
+      width: 50%;
+      margin: 15px auto 0;
+    }
+      .mailmagazine .form_btn .btnReserved {
+        width: 100%;
+        padding: 10px 0;
+        background-color: #036ca8;
+        border: 0;
+        border-radius: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 1.4em;
+        line-height: 1.0;
+      }
+      .mailmagazine .form_btn .btnReserved:hover {
+        filter:alpha(opacity=70);
+        -moz-opacity: 0.7;
+        opacity: 0.7;
+      }
+    .mailmagazine .icon {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      z-index: 10;
+      width: 80px;
+    }
+
+  .mailmagazine .subTxt {
+    line-height: 1.2;
+  }
+
+
+.eventMainBox .btn_more {
+  padding: 15px 15px 0 15px;
+}
+  .eventMainBox .btn_more a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #036ca8;
+    border: 0;
+    border-radius: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1.0;
+  }
+    .eventMainBox .btn_more a span {
+      padding-right: 15px;
+      background: url(../images/icon/icon_arrow01.png) no-repeat;
+      background-position: right center;
+    }
+  .eventMainBox .btn_more a:hover {
+    text-decoration: none;
+    filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+  }
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* -------------------------- */
+/* content */
+/* -------------------------- */
+
+/* mainVisual */
+.mainVisual {
+}
+  .mainVisual .slides li {
+    height: 400px;
+  }
+    .mainVisual .slides li .txt {
+      bottom: 30px;
+      left: 30px;
+    }
+      .mainVisual .slides .pic01 .txt {
+        width: 371px;
+      }
+      .mainVisual .slides .pic02 .txt {
+        width: 201px;
+      }
+      .mainVisual .slides .pic03 .txt {
+        width: 222px;
+      }
+      .mainVisual .slides .pic04 .txt {
+        width: 234px;
+      }
+      .mainVisual .slides .pic05 .txt {
+        width: 234px;
+      }
+      .mainVisual .slides .pic06 .txt {
+        width: 288px;
+      }
+    .mainVisual .slides li .picture {
+      width: 100%;
+      height: 400px;
+    }
+      .mainVisual .slides .pic01 .picture ,
+      .mainVisual .slides .pic02 .picture ,
+      .mainVisual .slides .pic03 .picture ,
+      .mainVisual .slides .pic04 .picture ,
+      .mainVisual .slides .pic05 .picture ,
+      .mainVisual .slides .pic06 .picture {
+        background-size: auto 400px;
+      }
+
+
+/* subject */
+.subject {
+}
+  .subject .subjectBox {
+    text-align: center;
+  }
+    .subject .subjectBox .subjectList {
+      width: 30%;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .subject .subjectBox .subjectList:not(:last-of-type) {
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+      .subject .subjectBox .subjectList a {
+        display: block;
+        height: 180px;
+      }
+        .subject .subjectBox .subjectList a figure {
+          width: 120px;
+          margin: 0 auto;
+        }
+          .subject .subjectBox .subjectList a figure img {
+            width: 100%;
+            height: auto;
+          }
+        .subject .subjectBox .subjectList a h4 {
+          font-size: 1.2em;
+        }
+
+
+/* information */
+.information {
+  margin: 30px 0;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* -------------------------- */
+/* content */
+/* -------------------------- */
+
+.container {
+  overflow: hidden;
+}
+
+/* mainVisual */
+.mainVisual {
+  position: relative;
+}
+  .mainVisual .slides li {
+    height: 400px;
+  }
+    .mainVisual .slides li .txt {
+      position: absolute;
+      z-index: 1;
+      top: 70px;
+      bottom: inherit;
+      left: 70px;
+    }
+    .mainVisual .slides li .picture {
+      position: absolute;
+      right: 0;
+      width: 800px;
+      height: 400px;
+    }
+      .mainVisual .slides .pic01 .picture ,
+      .mainVisual .slides .pic02 .picture ,
+      .mainVisual .slides .pic03 .picture ,
+      .mainVisual .slides .pic04 .picture ,
+      .mainVisual .slides .pic05 .picture ,
+      .mainVisual .slides .pic06 .picture {
+        background-size: auto 400px;
+      }
+  .mainVisual .copy {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 40px;
+    width: 220px;
+  }
+
+
+/*banner*/
+.imgBnr .imgBnr_link:not(:last-child) {
+  margin-bottom: 30px;
+}
+/* introduction */
+.introduction {
+  margin: 30px 0;
+}
+  .introduction h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .introduction .normalTxt {
+    text-align: center;
+    line-height: 1.8em;
+  }
+    .introduction .normalTxt br {
+      display: block;
+    }
+
+
+/* subject */
+.subject {
+  padding: 30px 0;
+}
+  .subject .subjectBox {
+  }
+    .subject .subjectBox .subjectList {
+      width: 31.5%;
+    }
+    .subject .subjectBox .subjectList:not(:last-of-type) {
+      margin-right: 15px;
+      margin-bottom: 0;
+    }
+      .subject .subjectBox .subjectList a {
+        height: 190px;
+      }
+        .subject .subjectBox .subjectList a h4 {
+          font-size: 1.4em;
+        }
+
+
+.mailmagazine {
+  margin: 60px 0 20px;
+}
+  .mailmagazine .container {
+    overflow: inherit;
+  }
+  .mailmagazine_inner {
+    display: table;
+    width: 100%;
+    padding: 30px;
+  }
+    .magazine_title {
+      display: table-cell;
+      width: 398px;
+      margin: 0;
+      padding: 0 50px;
+      font-size: 1.6em;
+      vertical-align: middle;
+    }
+      .magazine_title .title_img {
+        display: block;
+        line-height: 0;
+        margin-bottom: 15px;
+      }
+    .magazine_formBox {
+      display: table-cell;
+      width: 607px;
+      margin-top: 0;
+      vertical-align: middle;
+    }
+      .magazine_formBox dd .size01 {
+        font-size: 1.6em;
+      }
+    .mailmagazine .form_btn {
+      width: 30%;
+    }
+      .mailmagazine .form_btn .btnReserved {
+        padding: 15px 0;
+        font-size: 1.6em;
+      }
+    .mailmagazine .icon {
+      top: -15px;
+      width: 121px;
+    }
+
+
+.eventMainBox .btn_more {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+  .eventMainBox .btn_more a {
+    padding: 15px 0;
+    font-size: 1.6em;
+  }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+/* -------------------------- */
+/* content */
+/* -------------------------- */
+
+/* mainVisual */
+.mainVisual {
+}
+  .mainVisual .slides li {
+    height: 500px;
+  }
+    .mainVisual .slides li .txt {
+      top: 70px;
+      left: 70px;
+    }
+      .mainVisual .slides .pic01 .txt {
+        width: 557px;
+      }
+      }
+    .mainVisual .slides li .picture {
+      right: 0;
+      width: 1100px;
+      height: 500px;
+    }
+      .mainVisual .slides .pic01 .picture ,
+      .mainVisual .slides .pic02 .picture ,
+      .mainVisual .slides .pic03 .picture ,
+      .mainVisual .slides .pic04 .picture ,
+      .mainVisual .slides .pic05 .picture ,
+      .mainVisual .slides .pic06 .picture {
+        background-size: 100% 500px;
+      }
+  .mainVisual .copy {
+    left: 15px;
+    width: 326px;
+  }
+
+
+/* introduction */
+.introduction {
+  margin: 55px 0;
+}
+  .introduction h2 {
+    font-size: 2.6em;
+  }
+  .txtBnr h2 a {
+    padding: 15px 5px;
+  }
+
+
+
+/* subject */
+.subject {
+  padding: 50px 0;
+}
+  .subject .subjectBox {
+    float: left;
+  }
+  .subject .subjectBox:not(:last-of-type) {
+    margin-bottom: 0;
+  }
+  .subject .mom {
+    width: 400px;
+    margin-right: 20px;
+  }
+  .subject .teacher {
+    width: 613px;
+  }
+    .subject .subjectBox h3 {
+      margin-bottom: 15px;
+      font-size: 1.8em;
+    }
+    .subject .subjectBox .subjectList {
+      float: left;
+      display: block;
+      width: 190px;
+    }
+    .subject .subjectBox .subjectList:not(:last-of-type) {
+      margin-bottom: 3px;
+      margin-right: 20px;
+    }
+      .subject .subjectBox .subjectList a {
+        height: 187px;
+      }
+        .subject .subjectBox .subjectList a figure {
+          width: 120px;
+        }
+        .subject .subjectBox .subjectList a h4 {
+          font-size: 1.3em;
+        }
+
+
+/* event */
+.eventMainBox {
+  padding-bottom: 0;
+}
+.eventMainBox .eventList {
+  width: 33.333%;
+  margin-bottom: 15px;
+  border-bottom: 0;
+}
+  .eventMainBox .eventList:nth-of-type(odd) {
+    padding-right: 0;
+  }
+  .eventMainBox .eventList:nth-of-type(even) {
+    padding-left: 0;
+  }
+  .eventMainBox .eventList:nth-of-type(3n+1) {
+    padding-right: 10px;
+  }
+  .eventMainBox .eventList:nth-of-type(3n+2) {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .eventMainBox .eventList:nth-of-type(3n+3) {
+    padding-left: 10px;
+  }
+    .eventMainBox .eventList .eventList_thum {
+      height: 200px;
+    }
+      .eventMainBox .eventList .eventList_thum img {
+        height: 200px;
+      }
+
+.eventMainBox .btn_more {
+  padding: 20px 0 40px;
+}
+
+
+/* information */
+.information {
+  margin: 50px 0;
+}
+  .news {
+    float: left;
+    width: 634px;
+  }
+  .newsBoxList:not(:last-child) {
+    margin-bottom: 30px;
+  }
+    .newsBoxList .contTitle {
+      margin-bottom: 20px;
+    }
+  .infoList {
+    margin-bottom: 0;
+  }
+    .infoList li {
+    }
+      .infoList li a {
+        font-size: 1.6em;
+        overflow: hidden;
+      }
+        .infoList li a .date {
+          float: left;
+          width: 180px;
+          padding-bottom: 0;
+        }
+        .infoList li a .title {
+          float: left;
+
+        }
+  .information .facebook {
+    float: right;
+    width: 351px;
+    margin: 0;
+    padding-left: 50px;
+    border-left: 1px solid #ddd;
+  }
+
+.others {
+  margin-bottom: 60px;
+}
+  .others .bnrBox {
+    clear: both;
+  }
+    .others .bnrBox .ul li:not(:last-child) {
+      margin-bottom: 10px;
+      line-height: 0;
+    }
+
+    .others .youtube .youtubeContainer {
+      clear: none;
+      float: left;
+      position: relative;
+      width: 49%;
+      height: 284px;
+      margin: 0 2% 10px 0;
+      padding-top: 0;
+    }
+    .others .youtube .youtubeContainer:nth-child(2n) {
+      margin-right: 0;
+    }
+      .others .youtube .youtubeContainer iframe {
+        position: relative;
+      }
+
+
+.mailmagazine {
+}
+  .mailmagazine_inner {
+    width: 1035px;
+    border: 5px solid #ecdee0;
+  }
+
+
+
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1367px) {
+
+/* -------------------------- */
+/* content */
+/* -------------------------- */
+
+/* mainVisual */
+.mainVisual {
+}
+  .mainVisual .slides li {
+  }
+    .mainVisual .slides li .txt {
+      left: 100px;
+    }
+    .mainVisual .slides li .picture {
+      left: 266px;
+      right: auto;
+      width: 100%;
+      height: 500px;
+    }
+      .mainVisual .slides .pic01 .picture ,
+      .mainVisual .slides .pic02 .picture ,
+      .mainVisual .slides .pic03 .picture ,
+      .mainVisual .slides .pic04 .picture ,
+      .mainVisual .slides .pic05 .picture ,
+      .mainVisual .slides .pic06 .picture {
+        background-size: 100% auto;
+        background-position: bottom center;
+      }
+}
+
+@charset "UTF-8";
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 144px;
+}
+
+.pageTitle .picture {
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+
+/* about */
+.about {
+  margin-bottom: 30px;
+}
+  .about figure {
+    margin-bottom: 15px;
+    line-height: 0;
+  }
+  .about .aboutInner {
+    margin-bottom: 15px;
+  }
+    .about .aboutInner h3 {
+      margin-bottom: 10px;
+      color: #036ca8;
+      font-weight: bold;
+      font-size: 1.6em;
+      line-height: 1.4em;
+    }
+      .about .aboutInner h3 br {
+        display: none;
+      }
+  .about .listAbout {
+    background-color: #2f3e6b;
+  }
+    .about .listAbout li {
+      padding: 15px;
+      color: #fff;
+      font-size: 1.4em;
+      line-height: 1.4em;
+    }
+    .about .listAbout li:not(:last-child) {
+      border-bottom: 1px solid #51608c;
+    }
+
+
+/* feature */
+.feature {
+  margin-bottom: 30px;
+}
+  .feature .container {
+    padding: 0;
+  }
+  .feature .featureList {
+    padding: 15px;
+  }
+  .feature .featureList:nth-child(odd) {
+    background-color: #f3f4f8;
+  }
+    .feature .featureList h3 {
+      margin-bottom: 10px;
+      text-align: center;
+      font-size: 1.4em;
+    }
+      .feature .featureList h3 span {
+        padding: 5px 10px;
+        font-size: 0.8em;
+        color: #fff;
+      }
+      .feature .featureList:nth-child(odd) h3 span {
+        background-color: #2f3e6b;
+      }
+      .feature .featureList:nth-child(even) h3 span {
+        background-color: #036ca8;
+      }
+      .feature .featureList h3 strong {
+        display: block;
+        padding-top: 5px;
+        color: #036ca8;
+      }
+    .feature .featureList .normalTxt br {
+      display: none;
+    }
+    .feature .featureList .listFeature {
+      margin-top: 15px;
+      padding: 15px;
+    }
+    .feature .featureList:nth-child(odd) .listFeature {
+      background-color: #fff;
+    }
+    .feature .featureList:nth-child(even) .listFeature {
+      background-color: #f8f1f2;
+    }
+      .feature .featureList li {
+        padding-left: 23px;
+        background: url(../images/seminars/ico_check.png) no-repeat;
+        background-position: 0 2px;
+        font-size: 1.4em;
+        line-height: 1.4em;
+      }
+      .feature .featureList li:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+/* why */
+.why {
+  margin-bottom: 30px;
+}
+  .why .whyList:not(:last-child) {
+    margin-bottom: 15px;
+  }
+    .why .whyList figure {
+      margin-bottom: 15px;
+      line-height: 0;
+    }
+    .why .whyList h3 {
+      margin-bottom: 10px;
+      color: #2f3e6b;
+      font-weight: bold;
+      font-size: 1.6em;
+      line-height: 1.4em;
+    }
+
+
+/* voice */
+.voice {
+  padding: 25px 0;
+  background-color: #f8f1f2;
+}
+  .voice .thum {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+    .voice .thum figure {
+      display: table-cell;
+    }
+    .voice .thum figure:nth-child(odd) {
+      padding-right: 5px;
+    }
+    .voice .thum figure:nth-child(even) {
+      padding-left: 5px;
+    }
+  .voice .voiceList {
+  }
+    .voice .voiceList li {
+      padding: 15px;
+      background-color: #fff;
+      font-size: 1.4em;
+      line-height: 1.4em;
+    }
+    .voice .voiceList li:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle .picture {
+  background-size: auto 250px;
+}
+
+/* about */
+.about {
+  margin-bottom: 50px;
+}
+
+/* why */
+.why {
+  margin-bottom: 50px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 217px;
+}
+
+.pageTitle .picture {
+  background-size: auto 300px;
+}
+
+
+
+/* about */
+.about {
+  position: relative;
+}
+  .about figure {
+    margin-bottom: 25px;
+  }
+  .about .aboutInner {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+    .about .aboutInner h3 {
+      margin-bottom: 10px;
+      color: #036ca8;
+      font-weight: bold;
+      font-size: 1.6em;
+      line-height: 1.4em;
+    }
+      .about .aboutInner h3 br {
+        display: none;
+      }
+  .about .listAbout {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width: 40%;
+  }
+    .about .listAbout li {
+      line-height: 1.6em;
+    }
+
+
+
+/* feature */
+.feature {
+  margin-bottom: 50px;
+}
+  .feature .container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  .feature .featureList {
+    width: 50%;
+    padding: 25px;
+  }
+  .feature .featureList:nth-child(odd) {
+    background-color: inherit;
+  }
+  .feature .featureList:nth-child(4n+1) ,
+  .feature .featureList:nth-child(4n+4) {
+    background-color: #f3f4f8;
+  }
+    .feature .featureList h3 {
+      position: relative;
+      margin-bottom: 15px;
+      text-align: left;
+      font-size: 2.0em;
+      line-height: 1.4em;
+    }
+      .feature .featureList h3 span {
+        display: block;
+        position: absolute;
+        top: -25px;
+        width: 80px;
+        text-align: center;
+      }
+      .feature .featureList:nth-child(odd) h3 span {
+        right: -25px;
+        background-color: inherit;
+      }
+      .feature .featureList:nth-child(even) h3 span {
+        left: -25px;
+        background-color: inherit;
+      }
+      .feature .featureList:nth-child(4n+1) h3 span ,
+      .feature .featureList:nth-child(4n+4) h3 span {
+        background-color: #2f3e6b;
+      }
+      .feature .featureList:nth-child(4n+2) h3 span ,
+      .feature .featureList:nth-child(4n+3) h3 span {
+        background-color: #036ca8;
+      }
+      .feature .featureList h3 strong {
+        padding-top: 30px;
+      }
+    .feature .featureList .normalTxt br {
+      display: block;
+    }
+    .feature .featureList .listFeature {
+      margin-top: 20px;
+      padding: 25px;
+    }
+    .feature .featureList:nth-child(odd) .listFeature {
+      background-color: inherit;
+    }
+    .feature .featureList:nth-child(even) .listFeature {
+      background-color: inherit;
+    }
+    .feature .featureList:nth-child(4n+1) .listFeature ,
+    .feature .featureList:nth-child(4n+4) .listFeature {
+      background-color: #fff;
+    }
+    .feature .featureList:nth-child(4n+2) .listFeature ,
+    .feature .featureList:nth-child(4n+3) .listFeature {
+      background-color: #f8f1f2;
+    }
+      .feature .featureList li {
+        font-size: 1.6em;
+        line-height: 1.5em;
+      }
+
+
+/* why */
+.why {
+  margin-bottom: 50px;
+}
+  .why .whyList {
+    position: relative;
+    overflow: hidden;
+  }
+  .why .whyList:not(:last-child) {
+    margin-bottom: 25px;
+  }
+    .why .whyList figure {
+      width: 500px;
+      margin-bottom: 20px;
+    }
+    .why .whyList:nth-child(2n+2) figure {
+      float: right;
+    }
+    .why .whyList h3 {
+      position: absolute;
+      margin-bottom: 0;
+      padding: 20px;
+      top: 180px;
+      background-color: #2f3e6b;
+      color: #fff;
+      font-size: 1.8em;
+    }
+    .why .whyList:nth-child(2n+1) h3 {
+      right: 0;
+    }
+    .why .whyList .normalTxt {
+      clear: both;
+      padding-top: 20px;
+    }
+
+
+
+/* voice */
+.voice {
+  padding: 50px 0;
+}
+  .voice .container {
+    display: table;
+    width: 100%;
+  }
+  .voice .thum {
+    display: table-cell;
+    width: 40%;
+    margin-bottom: 0;
+  }
+    .voice .thum figure {
+      display: block;
+    }
+    .voice .thum figure:nth-child(odd) {
+      margin-bottom: 15px;
+      padding-right: 0;
+    }
+    .voice .thum figure:nth-child(even) {
+      padding-left: 0;
+    }
+  .voice .voiceList {
+    display: table-cell;
+    width: 60%;
+    padding-left: 15px;
+    vertical-align: top;
+    
+  }
+    .voice .voiceList li {
+      padding: 20px;
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+
+/* about */
+.about {
+  position: inherit;
+  margin-bottom: 70px;
+}
+  .about .container {
+    position: relative;
+  }
+  .about figure {
+    margin-bottom: 50px;
+  }
+  .about .aboutInner {
+    width: 540px;
+    margin-bottom: 15px;
+  }
+    .about .aboutInner h3 {
+      margin-bottom: 13px;
+      font-size: 2.4em;
+    }
+      .about .aboutInner h3 br {
+        display: block;
+      }
+    .about .aboutInner .normalTxt {
+      line-height: 1.8em;
+    }
+  .about .listAbout {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width: 400px;
+  }
+    .about .listAbout li {
+      padding: 25px 30px;
+      font-size: 1.6em;
+      line-height: 1.6em;
+    }
+
+
+
+/* feature */
+.feature {
+  margin-bottom: 70px;
+}
+  .feature .featureList {
+    width: 50%;
+    padding: 50px;
+  }
+    .feature .featureList h3 {
+      margin-bottom: 20px;
+      font-size: 2.4em;
+    }
+      .feature .featureList h3 span {
+        top: -50px;
+        width: 90px;
+      }
+      .feature .featureList:nth-child(odd) h3 span {
+        right: -50px;
+      }
+      .feature .featureList:nth-child(even) h3 span {
+        left: -50px;
+      }
+    .feature .featureList .normalTxt br {
+      display: block;
+    }
+    .feature .featureList .listFeature {
+      margin-top: 20px;
+      padding: 25px;
+    }
+
+
+/* why */
+.why {
+  margin-bottom: 70px;
+}
+  .why .whyList {
+  }
+  .why .whyList:not(:last-child) {
+    margin-bottom: 50px;
+  }
+    .why .whyList figure {
+      width: 800px;
+      margin-bottom: 0;
+    }
+    .why .whyList h3 {
+      padding: 20px 25px;
+      top: 330px;
+      font-size: 2.4em;
+    }
+    .why .whyList .normalTxt {
+      padding-top: 70px;
+      line-height: 1.6em;
+    }
+  
+
+/* voice */
+.voice {
+  padding: 70px 0;
+}
+  .voice .container {
+    width: 1035px;
+  }
+  .voice .thum {
+    width: 400px;
+  }
+    .voice .thum figure:nth-child(odd) {
+      margin-bottom: 20px;
+    }
+  .voice .voiceList {
+    width: 595px;
+    padding-left: 40px;
+  }
+    .voice .voiceList li {
+      padding: 25px;
+    }
+    .voice .voiceList li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle .picture {
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+
+}
+
+
+@charset "UTF-8";
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 254px;
+}
+
+.pageTitle .picture {
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+.pageTitle .picture .system {
+  background-image: image-url(main_visual/system);
+}
+
+
+/* instructor */
+.instructor {
+  margin-bottom: 30px;
+}
+  .instructor .container {
+    padding: 0;
+  }
+  .instructor .instructorList {
+    border-bottom: 1px solid #ddd;
+  }
+  .instructor .instructorList:first-child {
+    border-top: 1px solid #ddd;
+  }
+    .instructor .instructorList .instructorListInner {
+      padding: 15px;
+      color: #323232;
+    }
+      .instructor .instructorList .instructorListInner .titleBox {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+        .instructor .instructorList .instructorListInner .titleBox .thum_instructor {
+          width: 40%;
+        }
+          .instructor .instructorList .instructorListInner .titleBox .thum_instructor figure {
+            width: 100%;
+            height: auto;
+            position: relative;
+            background-color: #f1f1f1;
+            overflow: hidden;
+          }
+          .instructor .instructorList .instructorListInner .titleBox .thum_instructor figure:before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+          }
+            .instructor .instructorList .instructorListInner .titleBox .thum_instructor figure span {
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              text-align: center;
+              box-sizing: border-box;
+            }
+            .instructor .instructorList .instructorListInner .titleBox .thum_instructor figure span > *{
+              vertical-align: middle;
+              display: inline-block;
+            }
+              .instructor .instructorList .instructorListInner .titleBox .thum_instructor figure span img {
+                max-width: 100%;
+                height: auto;
+                max-height: 100%;
+              }
+        
+        .instructor .instructorList .instructorListInner .titleBox .name {
+          width: 60%;
+          text-align: center;
+          vertical-align: middle;
+          font-size: 1.6em;
+          line-height: 1.3em;
+        }
+          .instructor .instructorList .instructorListInner .titleBox .name strong {
+            display: block;
+            color: #036ca8;
+          }
+          .instructor .instructorList .instructorListInner .titleBox .name small {
+            color: #999;
+            font-size: 0.7em;
+          }
+      
+      /* accordion_box */
+      .accordion_box {
+        position: relative;
+      }
+        .accordion_box label {
+          height: 100px;
+          cursor: pointer;
+          text-align: center;
+          font-size: 12px;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+          background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+          background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+          background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%);
+        }
+        .accordion_box input:checked + label {
+           background: inherit;
+        }
+        .accordion_box label:after {
+          content: "▼もっと見る";
+          line-height: 2.2rem;
+          position: absolute;
+          bottom: 0;
+          right: -65px;
+          -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+          color: #323232 !important;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          width: 130px;
+          -ms-border-radius: 50px;
+          -moz-border-radius: 50px;
+          border-radius: 50px;
+          font-size: 1.2em;
+        }
+        .accordion_box input {
+          display: none;
+        }
+        .accordion_box .accordion-container {
+          overflow: hidden;
+          height: 130px;
+          -ms-transition: all 0.1s;
+          -moz-transition: all 0.1s;
+          -ms-transition: all 0.1s;
+          -o-transition: all 0.1s;
+          transition: all 0.1s;
+        }
+        .accordion_box input:checked + label {
+        }
+        .accordion_box input:checked + label:after {
+          content: "閉じる";
+        }
+        .accordion_box input:checked ~ .accordion-container {
+          height: auto;
+          padding-bottom: 40px;
+          -ms-transition: all 0.1s;
+          -moz-transition: all 0.1s;
+          -ms-transition: all 0.1s;
+          -o-transition: all 0.1s;
+          transition: all 0.1s;
+        }
+      
+      .instructor .instructorList .instructorListInner .btn {
+        width: 100%;
+        margin: 25px 0 5px;
+      }
+        .instructor .instructorList .instructorListInner .btn a {
+          display: block;
+          width: 100%;
+          padding: 10px 0;
+          background-color: #036ca8;
+          border-radius: 30px;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          text-align: center;
+          color: #fff;
+          font-size: 1.4em;
+          line-height: 1.4;
+        }
+        .instructor .instructorList .instructorListInner .btn a:hover {
+          filter:alpha(opacity=70);
+          -moz-opacity: 0.7;
+          opacity: 0.7;
+          text-decoration: none;
+        }
+          .instructor .instructorList .instructorListInner .btn span {
+            padding-right: 15px;
+            background: url(../images/icon/icon_arrow01.png) no-repeat;
+            background-position: right center;
+          }
+      .instructor .instructorList .noLinks .btn {
+        display: none;
+      }
+
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle .picture {
+  background-size: auto 250px;
+}
+
+
+/* instructor */
+.instructor {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+  .instructor .container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .instructor .instructorList {
+    width: 50%;
+  }
+  .instructor .instructorList:nth-child(2) {
+    border-top: 1px solid #ddd;
+  }
+  .instructor .instructorList:nth-child(odd) {
+    border-right: 1px solid #ddd;
+  }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 381px;
+}
+
+.pageTitle .picture {
+  background-size: auto 300px;
+}
+
+
+/* instructor */
+.instructor {
+}
+  .instructor .container {
+  }
+    .instructor .instructorList .instructorListInner {
+      padding: 25px;
+    }
+      .instructor .instructorList .instructorListInner .titleBox {
+        margin-bottom: 15px;
+      }
+        .instructor .instructorList .instructorListInner .titleBox .thum_instructor {
+          width: 55%;
+        }
+        .instructor .instructorList .instructorListInner .titleBox .name {
+          font-size: 2.0em;
+        }
+        
+      .instructor .instructorList .instructorListInner .btn {
+      }
+        .instructor .instructorList .instructorListInner .btn a {
+          font-size: 1.4em;
+        }
+
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+
+/* instructor */
+.instructor {
+}
+  .instructor .container {
+    display: block;
+    padding-right: 3px;
+  }
+  .instructor .instructorList {
+    float: left;
+    width: 498px;
+    margin-bottom: 39px;
+    border: 1px solid #ddd;
+    box-shadow:3px 3px 0px 0px #f1f1f1;
+    -moz-box-shadow:3px 3px 0px 0px #f1f1f1;
+    -webkit-box-shadow:3px 3px 0px 0px #f1f1f1;
+  }
+  .instructor .instructorList:nth-child(odd) {
+    margin-right: 36px;
+  }
+    .instructor .instructorList .instructorListInner {
+      padding: 25px;
+    }
+      .instructor .instructorList .instructorListInner .titleBox {
+        margin-bottom: 20px;
+      }
+        .instructor .instructorList .instructorListInner .titleBox .name {
+          font-size: 2.4em;
+        }
+      .instructor .instructorList .instructorListInner .btn {
+      }
+        .instructor .instructorList .instructorListInner .btn a {
+          font-size: 1.6em;
+        }
+      .instructor .instructorList .noLinks .btn {
+        display: block;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle .picture {
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+
+}
+
+@charset "UTF-8";
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 191px;
+}
+
+.pageTitle .picture2 {
+  background: url(../images/system/under_mainVisual.jpg) no-repeat;
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+
+/* system */
+.systemBox {
+  margin-bottom: 30px;
+}
+  .systemBox .systemList {
+    border: 1px solid #ddd;
+    box-shadow:3px 3px 0px 0px #f1f1f1;
+    -moz-box-shadow:3px 3px 0px 0px #f1f1f1;
+    -webkit-box-shadow:3px 3px 0px 0px #f1f1f1;
+  }
+  .systemBox .systemList:not(:last-child) {
+    margin-bottom: 15px;
+  }
+    .systemBox .systemList a {
+      display: block;
+      padding: 15px;
+      color: #323232;
+    }
+      .systemBox .systemList a figure {
+        margin-bottom: 20px;
+        line-height: 0;
+      }
+      .systemBox .systemList a .txt {
+      }
+        .systemBox .systemList a .txt h3 {
+          margin-bottom: 15px;
+          text-align: center;
+          color: #036ca8;
+          font-size: 1.6em;
+          font-weight: bold;
+          line-height: 1.0em;
+        }
+          .systemBox .systemList a .txt h3 small.comingSoon {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 0 10px;
+            padding: 3px 8px;
+            background: #F1F1F1;
+            color: #333;
+            font-size: 0.7em;
+            font-weight: normal;
+          }
+        .systemBox .systemList a .txt .btn {
+          width: 150px;
+          margin: 15px auto 5px;
+          padding: 10px 0;
+          background-color: #036ca8;
+          border-radius: 30px;
+          -webkit-border-radius: 30px;
+          -moz-border-radius: 30px;
+          text-align: center;
+          color: #fff;
+          font-size: 1.2em;
+          line-height: 1.2em;
+        }
+          .systemBox .systemList a .txt .btn span {
+            padding-right: 15px;
+            background: url(../images/icon/icon_arrow01.png) no-repeat;
+            background-position: right center;
+          }
+  .systemBox .systemList:hover {
+    border: 1px solid #2f3e6b;
+  }
+    .systemBox .systemList a:hover {
+      text-decoration: none;
+    }
+      .systemBox .systemList a:hover figure {
+        filter:alpha(opacity=70);
+        -moz-opacity: 0.7;
+        opacity: 0.7;
+      }
+      .systemBox .systemList a:hover .txt .btn {
+        background-color: #2f3e6b;
+      }
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle .picture {
+  background-size: auto 250px;
+}
+
+
+/* system */
+.systemBox {
+  margin-bottom: 50px;
+}
+  .systemBox .systemList {
+    display: table;
+    width: 100%;
+  }
+    .systemBox .systemList a {
+      padding: 15px;
+    }
+      .systemBox .systemList a figure {
+        display: table-cell;
+        width: 40%;
+        margin-bottom: 0;
+      }
+      .systemBox .systemList a .txt {
+        display: table-cell;
+        width: 60%;
+        padding-left: 20px;
+        vertical-align: top;
+      }
+        .systemBox .systemList a .txt h3 {
+          margin: 5px 0 15px;
+          text-align: left;
+        }
+          .systemBox .systemList a .txt h3 small.comingSoon {
+            font-size: 0.6em;
+          }
+        .systemBox .systemList a .txt .btn {
+          float: right;
+        }
+
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 286px;
+}
+
+.pageTitle .picture {
+  background-size: auto 300px;
+}
+
+
+/* system */
+.systemBox {
+}
+  .systemBox .systemList {
+  }
+  .systemBox .systemList:not(:last-child) {
+    margin-bottom: 25px;
+  }
+    .systemBox .systemList a {
+      padding: 25px;
+    }
+      .systemBox .systemList a .txt {
+        padding-left: 25px;
+      }
+        .systemBox .systemList a .txt h3 {
+          margin: 0 0 20px;
+          font-size: 2.0em;
+        }
+        .systemBox .systemList a .txt .btn {
+          margin-top: 20px;
+          width: 160px;
+          font-size: 1.6em;
+        }
+
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+/* system */
+.systemBox {
+  margin-bottom: 70px;
+}
+  .systemBox .systemList {
+  }
+  .systemBox .systemList:not(:last-child) {
+    margin-bottom: 30px;
+  }
+    .systemBox .systemList a {
+      padding: 30px;
+    }
+      .systemBox .systemList a figure {
+        width: 360px;
+      }
+      .systemBox .systemList a .txt {
+        width: auto;
+        padding-left: 35px;
+      }
+        .systemBox .systemList a .txt h3 {
+          margin: 3px 0 25px;
+          font-size: 2.4em;
+        }
+        .systemBox .systemList a .txt .btn {
+          margin-top: 35px;
+        }
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle .picture {
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+
+}
+
+@charset "UTF-8";
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 190px;
+}
+
+.pageTitle .picture3 {
+  background: url(../images/about/under_mainVisual.jpg) no-repeat;
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+
+/* supporter */
+.supporter {
+  margin-bottom: 30px;
+}
+  .supporter .intro_txt {
+    margin-bottom: 20px;
+  }
+  
+  .supporterList {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+    .supporterList .txtBox {
+      -ms-order: 2;
+      order: 2;
+    }
+      .supporterList .txtBox .title_supporter {
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 1.6em;
+        line-height: 1.0;
+      }
+      .supporterList .txtBox .links_supporter {
+        margin-top: 15px;
+      }
+        .supporterList .txtBox .links_supporter li {
+          border-bottom: 1px dashed #d1d1d1;
+          font-size: 1.4em;
+          line-height: 1.4;
+          list-style: none;
+        }
+        .supporterList .txtBox .links_supporter li:first-child {
+          border-top: 1px dashed #d1d1d1;
+        }
+          .supporterList .txtBox .links_supporter li a {
+            display: block;
+            padding: 10px 10px 10px 10px;
+            background: url(../images/icon/icon_arrow03.png) no-repeat;
+            background-position: 10px 13px;
+            color: #323232;
+            text-decoration: underline;
+          }
+          .supporterList .txtBox .links_supporter li a:hover {
+            background-color: #f1f1f1;
+            text-decoration: none;
+          }
+    .supporterList .thumBox {
+      -ms-order: 1;
+      order: 1;
+      width: 150px;
+      margin: 0 auto 20px;
+    }
+      .supporterList .thumBox figure {
+        line-height: 0;
+      }
+      .supporterList .thumBox .logo {
+        margin-bottom: 1px;
+        border: 1px solid #ddd;
+      }
+
+
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle .picture {
+  background-size: auto 250px;
+}
+
+
+/* supporter */
+.supporter {
+  margin-bottom: 50px;
+}
+
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 285px;
+}
+
+.pageTitle .picture {
+  background-size: auto 300px;
+}
+
+
+/* supporter */
+.supporter {
+  margin-bottom: 30px;
+}
+  .supporter .intro_txt {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .supporterList {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    margin-top: 30px;
+    padding: 25px;
+  }
+    .supporterList .txtBox {
+      width: 100%;
+      padding-left: 25px;
+    }
+      .supporterList .txtBox .title_supporter {
+        margin: 8px 0 25px;
+        font-size: 2.0em;
+      }
+      .supporterList .txtBox .links_supporter {
+        margin-top: 25px;
+      }
+        .supporterList .txtBox .links_supporter li {
+          font-size: 1.6em;
+        }
+          .supporterList .txtBox .links_supporter li a {
+            background-position: 10px 14px;
+          }
+    .supporterList .thumBox {
+      width: 30%;
+      margin: 0;
+    }
+
+
+}
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+/* supporter */
+.supporter {
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+  .supporter .intro_txt {
+    margin-bottom: 65px;
+  }
+
+  .supporterList {
+    margin-top: 35px;
+    padding: 30px;
+  }
+    .supporterList .txtBox {
+      padding-left: 30px;
+    }
+      .supporterList .txtBox .title_supporter {
+        margin: 10px 0 20px;
+        font-size: 1.8em;
+      }
+      .supporterList .txtBox .links_supporter {
+        margin-top: 30px;
+      }
+
+}
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle .picture {
+  background-size: 100% auto;
+  background-position: bottom center;
+}
+
+}
+

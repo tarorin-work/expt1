@@ -1,0 +1,598 @@
+// Place all the styles related to the inquiry controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 130px;
+}
+
+.pageTitle {
+ background-image: image-url(main_visual/system);
+  background-size: auto 200px;
+  background-position: center top;
+}
+
+.entry {
+	margin-bottom: 30px;
+}
+
+
+.outline {
+	margin-bottom: 25px;
+	padding: 25px 0;
+}
+	.outline .outlineList .tbrNormal th {
+		background-color: #ddd;
+	}
+	.outline .outlineList .tbrNormal td {
+		background-color: #fff;
+	}
+
+
+.inquiryTxt {
+  margin: 50px 0;
+}
+  .inquiryTxt p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .inquiryTxt a {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #2f3e6b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-align: center;
+    color: #fff;
+  }
+    .inquiryTxt a span {
+      padding-left: 20px;
+      background: url(../images/icon/icon_mail.png) no-repeat;
+      background-position: 0 50%;
+    }
+  .inquiryTxt a:hover {
+    background-color: #c14457;
+    text-decoration: none;
+  }
+
+.inquiry_telBox {
+	margin-top: 30px;
+	padding: 25px 0;
+	background-color: #f5f5f5;
+}
+	.inquiry_telBox .tbrNormal th {
+		background-color: #ddd;
+		border-bottom: 1px solid #f5f5f5;
+	}
+	.inquiry_telBox .tbrNormal td {
+		background-color: #fff;
+	}
+
+.img-responsive {
+  width: 100%;
+  height: 20%;
+}
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+/* pagetitle */
+
+.pageTitle {
+  background-size: auto 250px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 195px;
+}
+
+.pageTitle {
+  background-size: auto 300px;
+}
+
+	.outline .outlineList .tbrNormal {
+		max-width: 700px;
+    margin: 0 auto;
+	}
+	
+
+.entry {
+	margin-bottom: 45px;
+}
+
+.inquiry_telBox {
+	margin-top: 60px;
+	padding: 60px 0;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+.entry {
+	margin-bottom: 70px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle {
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+}
+
+@charset "UTF-8";
+
+/* form */
+input[type=text] ,
+textarea {
+	width: 100%;
+	padding: 4px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+textarea {
+	height: 150px;
+}
+input[type=text]:focus ,
+textarea:focus {
+	background-color: #fff;
+	border: 1px solid #999;
+}
+input[type=checkbox] ,
+input[type=radio] {
+	display: inline-block;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: none transparent;
+  text-overflow: "";
+  height: 40px;
+  padding: 4px 40px 0 4px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-indent: .01px;
+  background: url(../images/icon/icon_select.png) no-repeat;
+  background-position: right center;
+  background-size: auto 40px;
+  background-color: #fff;
+  line-height: 1.4em;
+}
+select::-ms-expand {
+  display: none;
+}
+input[type=checkbox] ,
+input[type=radio] {
+	display: inline-block;
+	margin-right: 5px;
+}
+.check {
+  display: block;
+}
+.check:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.error_item {
+  color: #d40202;
+  font-size: 16px;
+}
+
+.error {
+  margin-bottom: 25px;
+  border: 1px solid #d40202;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: #fff;
+}
+  .error h3 {
+    padding: 10px;
+    background-color: #d40202;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+  .error .errorTxt {
+    padding: 10px;
+    color: #d40202;
+    font-size: 1.4em;
+    line-height: 1.4em;
+  }
+
+@media only screen and (min-width:769px) {
+  .error {
+    margin-top: 25px;
+  }
+  .error h3 ,
+  .error .errorTxt {
+    font-size: 1.6em;
+  }
+}
+
+@media only screen and (min-width:1280px) {
+  .error {
+    margin-top: 35px;
+  }
+}
+
+.requried {
+  display: block;
+  float: right;
+  margin-top: -3px;
+  padding: 3px 5px;
+  background-color: #d40202;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  color: #fff;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width:768px) {
+  .requried {
+  }
+}
+
+.smallsize {
+	width: 150px !important;
+}
+
+
+
+
+
+
+/* entry defolt */
+.formList {
+	width: 100%;
+	border-top: 1px solid #ddd;
+}
+	.formList th ,
+	.formList td {
+		display: block;
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
+	.formList th {
+		position: relative;
+		padding: 10px;
+		background-color: #f1f1f1;
+		text-align: left;
+		vertical-align: middle;
+	}
+	.formList td {
+		padding: 10px 0 25px;
+		border-bottom: 1px solid #ddd;
+	}
+		.formList td .txt {
+			display: block;
+			margin-bottom: 15px;
+		}
+.submit {
+	margin-top: 30px;
+}
+	.submit input[type=submit] {
+		width: 100%;
+		padding: 10px 0;
+		background-color: #9cce82;
+		border: 0;
+		border-radius: 100px;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		color: #fff;
+		font-size: 1.4em;
+		box-shadow:0px 4px 0px -1px #ddd;
+		-moz-box-shadow:0px 4px 0px -1px #ddd;
+		-webkit-box-shadow:0px 4px 0px -1px #ddd;
+	}
+	.submit input[type=submit]:hover {
+		background-color: #c14556;
+	}
+
+
+.thanks {
+	margin-bottom: 30px;
+}
+	.thanks .support {
+		padding: 15px;
+		background-color: #f1f1f1;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	}
+		.thanks .support .supportInner {
+			padding: 15px;
+			background-color: #fff;
+		}
+			.thanks .support .supportInner h4 {
+				margin-bottom: 15px;
+				padding: 10px 0;
+				background-color: #f1f1f1;
+				border-top: 1px solid #ddd;
+				border-bottom: 1px solid #ddd;
+				text-align: center;
+				font-weight: bold;
+				font-size: 1.4em;
+				line-height: 1.4em;
+			}
+
+.btnPayment a ,
+.btnPayment button ,
+.btnPayment input[type=submit] {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border: 0;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	box-shadow:0px 4px 0px -1px #ddd;
+	-moz-box-shadow:0px 4px 0px -1px #ddd;
+	-webkit-box-shadow:0px 4px 0px -1px #ddd;
+	text-align: center;
+	color: #fff;
+	font-size: 1.4em;
+}
+
+.btnPayment a ,
+.btnPayment button {
+	background-color: #9cce82;
+}
+.btnPayment input[type=submit] {
+	background-color: #82a6ce;
+}
+.btnPayment a:hover ,
+.btnPayment button:hover {
+	background-color: #c14556;
+	text-decoration: none;
+}
+.btnPayment input[type=submit]:hover {
+	background-color: #91b8e4;
+}
+
+
+/* thanks */
+
+.bunk {
+	margin-bottom: 15px;
+	text-align: center;
+}
+	.bunk dt {
+		padding: 10px 0;
+		border-bottom: 1px dashed #d1d1d1;
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
+	.bunk dd {
+		padding: 10px 0;
+		border-bottom: 1px dashed #d1d1d1;
+	}
+	.bunk dd.price {
+		font-weight: bold;
+		font-size: 1.8em;
+		line-height: 1.6em;
+	}
+	.bunk .tbrBank {
+		width: 100%;
+		margin: 10px 0 15px;
+		border-top: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+	}
+		.bunk .tbrBank th ,
+		.bunk .tbrBank td {
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+			border-right: 1px solid #ddd;
+			font-weight: normal;
+			font-size: 1.4em;
+			line-height: 1.4;
+		}
+		.bunk .tbrBank th {
+			background-color: #f1f1f1;
+		}
+		.bunk .tbrBank td {
+			text-align: left;
+		}
+		.bunk .tbrBank td:nth-child(2n+1) {
+			width: 30%;
+		}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:640px) {
+
+.submit {
+	width: 300px;
+	margin: 30px auto 0;
+}
+	.submit input[type=submit] {
+		padding: 15px 0;
+	}
+
+
+.thanks {
+	margin-bottom: 50px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:769px) {
+
+/* pagetitle */
+
+.pageTitle .txt {
+  width: 286px;
+}
+
+.pageTitle {
+  background-size: auto 300px;
+}
+
+
+/* entry defolt */
+.formList {
+	overflow: hidden;
+}
+	.formList th ,
+	.formList td {
+		display: table-cell;
+		font-size: 1.6em;
+		line-height: 1.6em;
+	}
+	.formList th {
+		width: 300px;
+		padding: 15px 0;
+		background-color: inherit;
+		border-bottom: 1px solid #ddd;
+	}
+	.formList td {
+		padding: 15px 0 15px 30px;
+	}
+
+.submit {
+	width: 300px;
+	margin: 30px auto 3px;
+}
+	.submit input[type=submit] {
+		padding: 20px 0;
+		font-size: 1.8em;
+	}
+
+
+.thanks {
+}
+	.thanks .support {
+		padding: 25px;
+	}
+		.thanks .support .supportInner {
+			padding: 25px;
+		}
+			.thanks .support .supportInner h4 {
+				font-size: 1.6em;
+			}
+
+.btnPayment {
+	width: 610px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.single_btn {
+	width: 300px;
+}
+	.btnPayment a ,
+	.btnPayment button ,
+	.btnPayment input[type=submit] {
+		width: 300px;
+		padding: 15px 0;
+		font-size: 1.8em;
+	}
+	.btnPayment .btnPayment_list {
+		float: left;
+		margin-top: 10px;
+		margin-bottom: 3px;
+	}
+	.btnPayment .btnPayment_list:first-of-type {
+		margin-right: 10px;
+	}
+
+
+	.bunk .tbrBank {
+	}
+		.bunk .tbrBank th ,
+		.bunk .tbrBank td {
+			font-size: 1.6em;
+		}
+		.bunk .tbrBank td:nth-child(2n+1) {
+			width: 15%;
+		}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* tablet */
+/* ================================================================================================================================================================================== */
+
+@media only screen and (min-width:1280px) {
+
+.thanks {
+	margin-bottom: 70px;
+}
+
+}
+
+
+
+/* ================================================================================================================================================================================== */
+/* pc */
+/* ================================================================================================================================================================================== */
+@media only screen and (min-width:1367px) {
+
+.pageTitle {
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+}
+
+
+

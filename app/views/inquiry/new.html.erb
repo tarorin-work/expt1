@@ -1,0 +1,71 @@
+<main class="content">
+	<h1 class="pageTitle">
+	　　<strong class="txt"><%= image_tag('text/inquiry.png', class: "img-responsive") %></strong>
+	　　<span class="picture"></span>
+	</h1>
+
+  <section class="entry">
+    <div class="container">
+      <h2 class="contTitle">
+        <strong>メールでのお問い合わせ</strong>
+        <small>inquiry</small>
+      </h2>
+      
+			<%= form_for(@inquiry, url: '/inquiry') do |f| %>
+			
+				<p class="normalTxt mbsp25">以下の項目に入力のうえ送信ください。</p>
+			
+							
+				<table class="formList">
+					<tr>
+						<th>お名前<em class="requried">必須</em></th>
+						<td>
+							<%= f.text_field :name %>
+							<div class="error_item"></div>
+						</td>
+					</tr>
+					<tr>
+						<th>メールアドレス<em class="requried">必須</em></th>
+						<td>
+							<span class="txt">原則メールにてご回答いたします。メールアドレスを今一度ご確認ください。</span>
+							<%= f.text_field :email %>
+							<div class="error_item"></div>
+						</td>
+					</tr>
+					<tr>
+						<th>連絡先お電話番号<em class="requried">必須</em></th>
+						<td>
+							<%= f.text_field :phone_number %>
+							<div class="error_item"></div>
+						</td>
+					</tr>
+					<tr>
+						<th>法人名</th>
+						<td>
+							<%= f.text_field :corporate_name %>
+						</td>
+					</tr>
+					<tr>
+						<th>部署名</th>
+						<td>
+							<%= f.text_field :department_name %>
+						</td>
+					</tr>
+					<tr>
+						<th>お問い合わせ内容<em class="requried">必須</em></th>
+						<td>
+							<%= f.text_area :content %>
+							<div class="error_item"></div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="submit">
+					<%= f.submit "入力内容を確認する" %>
+				<!-- /submitBox -->
+				</div>
+			<% end %>
+		<!-- /container -->
+		</div>
+  </section>
+</main>

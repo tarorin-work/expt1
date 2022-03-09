@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>	一般社団法人 人事・労務エキスパート協会</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+<body>
+  	
+  <header class="pageHeader">
+  <div class="mobile-head">
+    <h1 class="logo">
+    	<a href="/">
+	      <span class="logomark"><%= image_tag('logo.png', class: "img-responsive") %></span>
+	      <em class="logotype">一般社団法人<br>人事・労務エキスパート協会</em>
+    	</a>
+    </h1>
+    
+    <div class="nav-toggle">
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		<!-- /nav-toggle -->
+	</div>
+  <!-- /mobile-head -->
+  </div>
+  
+  <nav class="grobalNavi">
+		<ul class="grobalNaviList">
+  		<li class="hidden_navi"><a href="/about/">協会概要</a></li>
+  		<li class="drawer_dropdown">
+				<a href="javascript:void(0)" class="drawer_dropdown_item">協会概要</a>
+				<ul class="drawer_dropdown_menu">
+					<li><a href="/about/">協会概要</a></li>
+					<li><a href="/about/agreement/">会員規約</a></li>
+				</ul>
+		</li>
+  		<li class="hidden_navi"><a href="/seminar/">講座のご案内</a></li>
+  		<li class="drawer_dropdown">
+				<a href="javascript:void(0)" class="drawer_dropdown_item">労務監査人養成講座</a>
+				<ul class="drawer_dropdown_menu">
+					<li><a href="/seminar/">労務監査人養成講座とは</a></li>
+					<li><a href="/seminar/schedule/">開催日程</a></li>
+				</ul>
+		</li>
+  		<li class="hidden_navi"><a href="/system/">認定制度</a></li>
+  		<li class="drawer_dropdown">
+				<a href="javascript:void(0)" class="drawer_dropdown_item">認定制度</a>
+				<ul class="drawer_dropdown_menu">
+					<li><a href="/system/"><span>認定制度</span></a></li>
+					<li><a href="/system/instructor/"><span>認定講座</span></a></li>
+					<li><a href="/system/skillup/"><span>スキルアップ講座</span></a></li>
+					<li><a href="/system/lecturer/"><span>講師養成講座</span></a></li>
+					<li><a href="/system/entry/"><span>受講申込</span></a></li>
+					<li><a href="/system/update/"><span>認定更新制度</span></a></li>
+				</ul>
+		</li>
+  		<!-- <li class="hidden_navi"><a href="/certification/">会員紹介</a></li> -->
+  		<!-- <li class="drawer_dropdown"> -->
+				<!-- <a href="javascript:void(0)" class="drawer_dropdown_item">会員紹介</a> -->
+				<!-- <ul class="drawer_dropdown_menu"> -->
+					<!-- <li><a href="/certification/"><span>インストラクター</span></a></li> -->
+					<!-- <li><a href="/certification/voice/"><span>取得者の声</span></a></li> -->
+				<!-- </ul> -->
+		<!-- </li> -->
+
+		<li class="hidden_navi"><a href="/member/">認定労務監査人</a></li>
+		<li class="hidden_navi"><a href="/seminar/schedule/">行事日程</a></li>
+  		<li class="hidden_navi"><a href="/info/">お知らせ</a></li>
+  		<li class="hidden_navi"><a href="/inquiry/">　お問い合わせ</a></li>
+		</ul>
+	</nav>
+
+  	</header>
+
+    <%= yield %>
+
+	<footer class="pageFooter">
+	<nav class="footNvai">
+		<ul>
+			<li><a href="/about/">協会概要</a></li>
+			<li><a href="/seminar/">労務監査人養成講座</a></li>
+			<li><a href="/system/">認定制度</a></li>
+		</ul>
+		<ul>
+			<li><a href="/member/">認定労務監査人</a></li>
+			<li><a href="/seminar/schedule/">行事日程</a></li>
+			<li><a href="/info/">お知らせ</a></li>
+			<li><a href="/inquiry/">お問い合わせ</a></li>
+		</ul>
+	</nav>
+
+	<div class="addressBox">
+		<p class="footLogo">
+			<span class="logomark"><%= image_tag('logo.png', class: "img-responsive") %></span>
+			<em class="logotype">一般社団法人<br>人事・労務エキスパート協会</em>
+		</p>
+		<address>〒107-0051<br>東京都港区元赤坂1-5-26</address>
+		<ul class="contact">
+			<li class="mail"><a href="/inquiry/"><span>お問い合わせ</span></a></li>
+		</ul>
+	<!-- /addressBox -->
+	</div>
+
+	<div class="serviceBox"></div>
+	<p class="copyright"><small>copyright (c) 一般社団法人 人事・労務エキスパート協会</small></p>
+
+</footer>
+
+
+</body>
+</html>
+

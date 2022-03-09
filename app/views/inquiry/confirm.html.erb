@@ -1,0 +1,60 @@
+<main class="content">
+	<h1 class="pageTitle">
+	　　<strong class="txt"><%= image_tag('text/inquiry.png', class: "img-responsive") %></strong>
+	　　<span class="picture"></span>
+	</h1>
+
+	<section class="entry">
+		<div class="container">
+			<h2 class="contTitle">
+				<strong>確認画面</strong>
+				<small>confirm</small>
+			</h2>
+
+			<form action="thanks" method="post">
+
+				<p class="normalTxt mbsp25">入力内容をご確認の上、「送信する」ボタンを押してください。</p>
+
+				<table class="formList">
+					<tr>
+						<th>お名前<em class="requried">必須</em></th>
+						<td>test</td>
+					</tr>
+					<tr>
+						<th>メールアドレス<em class="requried">必須</em></th>
+						<td>
+							<span class="txt">原則メールにてご回答いたします。メールアドレスを今一度ご確認ください。</span>
+							test@yahoo.com						</td>
+					</tr>
+					<tr>
+						<th>連絡先お電話番号<em class="requried">必須</em></th>
+						<td>test</td>
+					</tr>
+					<tr>
+						<th>法人名</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>部署名</th>
+						<td></td>
+					</tr>
+					<tr>
+						<th>お問い合わせ内容<em class="requried">必須</em></th>
+						<td>test</td>
+					</tr>
+					<tr>
+						<th>メール配信</th>
+						<td>協会からの案内を受け取る</td>
+					</tr>
+				</table>
+
+				<div class="submit">
+					<input type="submit" name="submit" value="送信する">
+					<!-- /submitBox -->
+				</div>
+
+			</form>
+			<!-- /container -->
+		</div>
+	</section>
+</main>
