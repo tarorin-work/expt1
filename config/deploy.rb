@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.15.0"
 
-set :application, "expt_app"
-set :repo_url, "https://github.com/tarorin-work/expt.git"
+set :application, "expt"
+set :repo_url, "https://github.com/tarorin-work/expt1"
 
 set :branch, 'main'
 
@@ -14,7 +14,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', '
 
 set :keep_releases, 5
 
-set :rbenv_ruby, '2.5.7'
+set :rbenv_ruby, '2.6.3'
 
 set :log_level, :debug
 
